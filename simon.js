@@ -24,9 +24,6 @@ function levelUp(){
     let ranNum=Math.floor(Math.random()*3);
     let ranCol=btns[ranNum];
     let ranBtn=document.querySelector(`.${ranCol}`);
-    // console.log(ranNum);
-    // console.log(ranCol);
-    // console.log(ranBtn);
     gameSeq.push(ranCol);
     console.log(gameSeq);
     flashUp(ranBtn);
